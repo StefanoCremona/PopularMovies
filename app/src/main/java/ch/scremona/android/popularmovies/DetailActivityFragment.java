@@ -309,7 +309,7 @@ public class DetailActivityFragment extends Fragment
                         TextView textView = (TextView) myRowView.findViewById(R.id.listview_trailers_text);
                         textView.setText(data.getString(mYoutubeTitleIndexInCursor));
                         //list.addView(myRowView, 0, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                        list.addView(myRowView, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 0, 1));
+                        list.addView(myRowView, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 0, 1));
 
                         mFirstYoutubeVideo = data.getString(mYoutubeKeyIndexInCursor);
                         final String uriStr = getString(R.string.movieProvidersUrl_youTube) + mFirstYoutubeVideo;
