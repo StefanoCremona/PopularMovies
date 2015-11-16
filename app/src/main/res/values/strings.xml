@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="theMovieDb_baseUrl">http://api.themoviedb.org/3/discover/movie</string>
+    <string name="theMovieDb_reviewsUrl">http://api.themoviedb.org/3/movie</string>
+    <string name="theMovieDb_reviewsKey">reviews</string>
+    <string name="theMovieDb_trailersUrl">http://api.themoviedb.org/3/movie</string>
+    <string name="theMovieDb_trailersKey">videos</string>
+    <string name="theMovieDb_sortByParameterKey">sort_by</string>
+    <string name="theMovieDb_apiKeyParameterKey">api_key</string>
+    <string name="theMovieDb_sortByPopularityParameterValue">popularity.desc</string>
+    <string name="theMovieDb_sortByRatingParameterValue">vote_count.desc</string>
+    <string name="theMovieDb_sortByFavoriteParameterValue">favorite.desc</string>
+    <string name="theMovieDb_sortByToBeDeleteParameterValue">tobedelete</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="noInternetConnection">No internet connection available. You can browse your favorite movies only.</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_sortmethods_label">Sort Method</string>
+    <string name="pref_sortmethods_key">sortmethods</string>
+    <string name="pref_sortmethods_label_mostpopular">Most Popular</string>
+    <string name="pref_sortmethods_label_highestrated">Highest Rated</string>
+    <string name="pref_sortmethods_label_favorite">Favorites</string>
+    <string name="pref_sortmethods_mostpopular">mostpopular</string>
+    <string name="pref_sortmethods_highestrated">highestrated</string>
+    <string name="pref_sortmethods_favorite">favorite</string>
+
+    <!-- String related to Video providers -->
+    <string name="movieProvidersUrl_youTube">https://www.youtube.com/watch?v=</string>
+
+    <!--String for Details View -->
+    <string name="buttonFavouriteAddLable">Mark As\nFavorite</string>
+    <string name="buttonFavouriteDelLable">Del From\nFavorite</string>
+    <string name="action_share">Share</string>
+    <string name="overviewTitle">Overview</string>
+    <string name="reviewTitle">Reviews</string>
+    <string name="trailerTitle">Trailers</string>
+    <string name="theMovieDb_posterPath">http://image.tmdb.org/t/p</string>
+    <string name="theMovieDb_posterMiddleDimensionPath">/w342</string>
+    <string name="theMovieDb_posterLowDimensionPath">/w185</string>
+    <string name="decimalRate">%1$s/10</string>
+    <string name="movieAddedToFavorites">Movie added to favorites.</string>
+    <string name="movieRemoveToFavorites">Movie removed from favorites</string>
+</resources>

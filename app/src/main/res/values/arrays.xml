@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_sortmethods_options">
+        <item>@string/pref_sortmethods_label_mostpopular</item>
+        <item>@string/pref_sortmethods_label_highestrated</item>
+        <item>@string/pref_sortmethods_label_favorite</item>
+    </string-array>
+
+    <string-array name="pref_sortmethods_values">
+        <item>@string/pref_sortmethods_mostpopular</item>
+        <item>@string/pref_sortmethods_highestrated</item>
+        <item>@string/pref_sortmethods_favorite</item>
+    </string-array>
+
+</resources>

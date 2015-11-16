@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.scremona.android.popularmovies" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".Global"
+        android:allowBackup="true"
+        android:icon="@mipmap/pm_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <!--android:theme="@style/AppTheme" -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/PopularMoviesTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PopularMoviesTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.scremona.android.popularmovies.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SimpleSettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/SettingsTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.scremona.android.popularmovies.MainActivity" />
+        </activity>
+        <provider
+            android:authorities="ch.scremona.android.popularmovies.app"
+            android:name=".data.MoviesProvider"/>
+    </application>
+
+</manifest>
