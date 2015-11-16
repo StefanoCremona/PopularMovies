@@ -287,7 +287,7 @@ public class DetailActivityFragment extends Fragment
                         TextView textView = (TextView) myRowView.findViewById(R.id.listview_reviews_text);
                         textView.setText(data.getString(3));
                         //list.addView(myRowView, 0, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                        list.addView(myRowView, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 0, 1));
+                        list.addView(myRowView, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 0, 1));
                         data.moveToPrevious();
                     }
                 }
